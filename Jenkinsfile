@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git 'https://github.com/cmfsambe/permis-a-point.git'
+        git(url: 'git@github.com:cmfsambe/permis-a-point.git', branch: 'main')
       }
     }
 
