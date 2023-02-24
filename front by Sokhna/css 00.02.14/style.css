@@ -1,0 +1,538 @@
+/* html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+} */
+
+/* nav {
+  background-color: #333;
+  height: 75px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 34px 36px;
+  text-decoration: none;
+} */
+
+
+
+.choixUser {
+  list-style-type: none;
+  /* margin: 0; */
+  margin-top: 5%;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.choixUser li a:hover {
+  color: rgba(225, 184, 48, 0.537);
+  text-decoration: none;
+}
+
+.choixUser li a {
+  text-decoration: none;
+  color: rgb(224, 156, 73);
+}
+
+.choixUser li {
+  margin: 30px 0;
+  display: grid;
+  font-size: 30px;
+
+}
+
+#logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#logodiv {
+  width: 100px;
+  height: 75px;
+  float: left;
+}
+
+
+#logoutLink {
+  display: inline-block;
+  /* displays the link as a block-level element */
+  padding: 10px;
+  /* adds some padding to the link */
+}
+
+#logout {
+  width: 35px;
+  height: 35px;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+#logoutdiv {
+  width: 30px;
+  height: 35px;
+  float: right;
+  text-align: right;
+  /* aligns the link to the right */
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  /* on le colle en bas */
+  width: 100%;
+  height: 50px;
+  /* Hauteur du pied de page */
+  background-color: #dbd7d7;
+  text-align: center;
+}
+
+footer p {
+  color: rgb(22, 22, 22);
+  margin-top: 1%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*   
+  .login-box, .signup-box {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 100%;
+    
+  }
+   */
+.login-box {
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  margin-left: 30%;
+  margin-top: 20%;
+  border-radius: 5px;
+}
+
+h1 {
+
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+h4 {
+  color: black;
+}
+
+
+.circle {
+  color: #f2f2f2;
+  display: block;
+  width: 350px;
+  height: 350px;
+  border-radius: 200px;
+  /* makes the element circular */
+  text-align: center;
+  /* centers the text inside the circle */
+  line-height: 50px;
+  /* sets the line height of the text to the height of the circle */
+  background-color: #b66d25;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divSolde {
+  margin-left: 50px;
+}
+
+p.extra-margin {
+  padding-top: 75px;
+  font-size: 20px;
+}
+
+.nbPoints {
+  font-size: 35px;
+}
+
+.divSolde,
+.div2 {
+  float: left;
+}
+
+.div2 {
+  margin-top: -390px;
+  margin-left: 50%;
+}
+
+.loginForm {
+  margin-top: -25px;
+}
+
+/* Form container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+/* Form group */
+.form-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Form label */
+label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Input fields */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+/* Checkbox */
+input[type=checkbox] {
+  margin-right: 8px;
+}
+
+/* Submit button */
+button[type=submit] {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+/* Avatar */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.avatar {
+  width: 5%;
+  margin-top: 5%;
+  border-radius: 50%;
+}
+
+.btn-secondary {
+  background-color: lightgray;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+#signupH2 {
+  margin-left: 47%;
+}
+
+.error-message {
+  color: red;
+}
+
+#Psavoirdujour {
+  color: cadetblue;
+}
+
+.infraction {
+  height:50px ;
+  width: 50px;
+}
+
+.circleInfraction{
+  color: #e2c9af;
+  display: block;
+  width: 30px;
+  height: 70px;
+  border-radius: 200px;
+  /* makes the element circular */
+  text-align: center;
+  /* centers the text inside the circle */
+  line-height: 50px;
+  /* sets the line height of the text to the height of the circle */
+  background-color: #d8ae84;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7%;
+  margin-top: 5%;
+}
+
+
+.containerInfractions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
+
+.containerInfractions > div {
+  width: 23.33%;
+}
+
+.descInfraction{
+  color: #333;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #e9cdcd;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.gras{
+  font-weight: bold;
+}
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f5f5f5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #05332691;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+  max-width: 100%;
+}
+
+.search {
+  margin-left: auto;
+}
+
+#searchForm {
+  display: flex;
+  align-items: center;
+}
+
+#searchInput[type="text"] {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: #f0f0f0;
+  flex: 1;
+  margin-right: 0.5rem;
+}
+
+#searchButton[type="submit"] {
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#searchButton[type="submit"]:hover {
+  background-color: #222222;
+}
+
+/* subnav */
+.sub-nav {
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.sub-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-nav li {
+  margin: 0 10px;
+}
+
+.sub-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.sub-nav a:hover{
+  color: #b66d25;
+}
+
+/* .txtContainer{
+  margin-left: 5%;
+  margin-top: 10%;
+} */
+.txtContainer h2{
+ color:#b66d25;
+}
+.txtContainer h3{
+  color:#706c6c;
+ }
+
+
+ /* Actions A effectuer par l'agent de circulation */
+ /* .actionContainer{
+  margin-left: 65%;
+ }
+.actionAEffectuer{
+ 
+} */
+.txtNactionContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.txtContainer {
+  margin-bottom: 25px;
+  margin-top: 13%;
+}
+
+.actionContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+
+.actionAEffectuer {
+  display: flex;
+  width: 250px;
+  height: 20px;
+  align-items: center;
+  margin-bottom: 35px;
+  margin-left: 30%;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #7d7d7b;
+}
+.descAction{
+  color: #f0f0f0;
+  margin-left: 9%;
+  font-size: 20px;
+}
+
+/* fleche après actions */
+/* .arrowLink {
+  display: flex;
+  align-items: center;
+} */
+
+.arrowLink img {
+  width: 35px;
+  height: 33px;
+  margin-left: 5px;
+}
